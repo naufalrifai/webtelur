@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="css/all.css">
+	<link rel="stylesheet" href="responsive.css">
+</head>
+<body>
+	<div class="header">
+		<div class="header-left">
+			<i class="fas fa-egg"></i>
+			<h3>Linda Kitchen</h3>
+		</div>
+		<div class="header-right" id="headerright">
+			<a href="#Home" class="active">Home</a>
+			<a href="#Testimoni">Testimoni</a>
+			<a href="#Produk">Produk</a>
+			<a href="#Pesan">Pesan</a>
+			<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+				<i class="fa fa-bars"></i>
+			</a>
+		</div>
+	</div>
+	<div class="main">
+		
+	</div>
+	<div class="footer">
+		<div class="footer-left">
+			<h4>Hubungi kami:</h4>
+			<div class="contact">
+				<span class="fab fa-whatsapp"></span><a href="#">Whatsapp</a>
+				<span class="fab fa-instagram"></span><a href="#">Instagram</a>
+			</div>
+		</div>
+	</div>
+
+	<script>
+	function myFunction() {
+	  var x = document.getElementById("headerright");
+	  if (x.className === "header-right") {
+	    x.className += " responsive";
+	  } else {
+	    x.className = "header-right";
+	  }
+	}
+	</script>
+</body>
+</html>

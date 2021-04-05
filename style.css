@@ -1,0 +1,146 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+	font: 16px/28px arial, sans-serif;
+}
+
+.main {
+	background-image: url(egg.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 767px;
+}
+
+.header {
+	width: 100%;
+	height: 80px;
+	background-color: #fec89a;
+}
+
+.fa-egg {
+	padding: 15px 30px;
+	font-size: 45px;
+	color: white;
+}
+
+
+.header-right {
+	overflow: hidden;
+	background-color: #fec89a;
+}
+
+.header-right a {
+	color: white;
+	float: left;
+	line-height: 80px;
+	text-decoration: none;
+	padding: 0 25px;
+	display: block;
+	text-align: center;
+}
+
+a.active {
+	color: #9c6644;
+	background-color: #f1faee;
+}
+.header-right .icon {
+	display: none;
+}
+
+
+.header-right a:hover {
+	cursor: pointer;
+	color: #9c6644;
+	background-color: #f1faee;
+}
+
+.header-left i {
+	float: left;
+}
+
+.header-left h3 {
+	line-height: 80px;
+	font-weight: normal;
+	color: white;
+	float: left;
+	margin-right: 100px;
+}
+
+.footer {
+	background-color: #fec89a;
+	height: 125px;
+	width: 100%;
+	color: white;
+}
+
+.footer-left h4 {
+	font-weight: bold;
+}
+
+.footer-left {
+	padding: 20px 20px;
+	float: left;
+}
+
+.contact {
+	margin-top: 10px;
+}
+
+.fab {
+	margin-right: 10px;
+}
+
+.contact a {
+	text-decoration: none;
+	margin-right: 10px;
+	color: white;
+}
+
+.contact a:hover {
+	cursor: pointer;
+	color: #fff3b0;
+}
